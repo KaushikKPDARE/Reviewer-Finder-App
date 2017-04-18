@@ -331,7 +331,7 @@ public class SearchAuthors extends Application {
     button1.idProperty().set("quick1");
 
     RadioButton button2 = new RadioButton(
-        "Find authors with atleast two published papers in OOPSLA or ECOOP and did not serve on the committee for two consecutive years");
+        "Find authors with at least two published papers in OOPSLA or ECOOP and did not serve on the committee for two consecutive years");
     button2.setWrapText(true);
     button2.setToggleGroup(group);
     button2.setUserData(2);
